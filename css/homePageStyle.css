@@ -1,0 +1,93 @@
+/* Sets all values so the page is "reset" */
+*{
+    width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+h1{
+    width: auto;
+    margin-left: 20px;
+}
+
+h2{
+    width: auto;
+    color: #E0302A;
+    padding-top: 20px;
+}
+
+p{
+    font-size: 16px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    min-height: 60px;
+    align-content: center;
+    margin-bottom: 50px;
+    background-color: #E0A92F;
+}
+
+.textContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    min-height: 150px;
+    width: 400px;
+    line-height: 120%;
+}
+
+.navInteraction{
+    display: flex;
+    flex-direction: row;
+}
+
+.arrowIcon{
+    height: 24px;
+    width: auto;
+    font-size: 24px;
+    padding-top: 17px;
+    margin-left: 12px;
+    color: #E0A92F;
+}
+
+#listIcon{
+    font-size: 32px;
+    height: 33px;
+    width: auto;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+#pageContainer{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#navContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 400px;
+    margin-left: 30px;
+}
+
+#supportingImage{
+    height: 700px;
+    width: 550px;
+    background-color: black;
+    margin: 15px 30px 15px 30px;
+}
